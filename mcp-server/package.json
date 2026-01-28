@@ -1,0 +1,49 @@
+{
+  "name": "@cubealabs/mcp-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for Cube A Labs skills - Enables AI agents to discover and use favicon, cube-ui, and sitemap generators",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude-code",
+    "ai-agents",
+    "developer-tools",
+    "favicon",
+    "ui-generator",
+    "sitemap"
+  ],
+  "author": "Cube A Labs",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Muddi00seven/skills.git",
+    "directory": "mcp-server"
+  },
+  "homepage": "https://github.com/Muddi00seven/skills/tree/main/mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/Muddi00seven/skills/issues"
+  },
+  "bin": {
+    "cubealabs-mcp": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

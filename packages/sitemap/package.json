@@ -1,0 +1,34 @@
+{
+  "name": "@cubealabs/sitemap",
+  "version": "1.0.0",
+  "description": "🗺️ Generate SEO-optimized XML sitemaps with framework detection and Google Search Console integration",
+  "keywords": [
+    "sitemap",
+    "seo",
+    "xml-sitemap",
+    "google-search-console",
+    "next.js",
+    "react",
+    "vue",
+    "astro",
+    "sveltekit",
+    "claude-skill",
+    "claude-code"
+  ],
+  "author": "Cube A Labs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Muddi00seven/skills.git",
+    "directory": "packages/sitemap"
+  },
+  "homepage": "https://github.com/Muddi00seven/skills/tree/main/packages/sitemap#readme",
+  "bugs": {
+    "url": "https://github.com/Muddi00seven/skills/issues"
+  },
+  "files": [
+    "skill.md",
+    "README.md"
+  ],
+  "main": "skill.md"
+}

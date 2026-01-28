@@ -1,0 +1,45 @@
+{
+  "name": "@cubealabs/skills",
+  "version": "1.0.0",
+  "description": "Professional Claude Code skills for developers - Favicon generation, UI components, and SEO tools",
+  "keywords": [
+    "claude-code",
+    "claude-skills",
+    "ai-agents",
+    "mcp-server",
+    "developer-tools",
+    "favicon-generator",
+    "ui-components",
+    "sitemap-generator",
+    "seo-tools",
+    "web-development"
+  ],
+  "author": "Cube A Labs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Muddi00seven/skills.git"
+  },
+  "homepage": "https://github.com/Muddi00seven/skills#readme",
+  "bugs": {
+    "url": "https://github.com/Muddi00seven/skills/issues"
+  },
+  "workspaces": [
+    "packages/*",
+    "mcp-server"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "publish:all": "npm run build && npm publish --workspaces --access public",
+    "dev:mcp": "npm run dev -w mcp-server"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "@cubealabs/favicon",
+  "version": "1.0.0",
+  "description": "🎨 Generate complete favicon sets from any logo with PWA support, all icon sizes, and framework integration",
+  "keywords": [
+    "favicon",
+    "pwa",
+    "icons",
+    "web-manifest",
+    "apple-touch-icon",
+    "android-chrome",
+    "claude-skill",
+    "claude-code",
+    "next.js",
+    "react",
+    "vue",
+    "angular"
+  ],
+  "author": "Cube A Labs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Muddi00seven/skills.git",
+    "directory": "packages/favicon"
+  },
+  "homepage": "https://github.com/Muddi00seven/skills/tree/main/packages/favicon#readme",
+  "bugs": {
+    "url": "https://github.com/Muddi00seven/skills/issues"
+  },
+  "files": [
+    "skill.md",
+    "README.md"
+  ],
+  "main": "skill.md"
+}
